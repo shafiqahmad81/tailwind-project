@@ -31,3 +31,12 @@ let main_menu = document.getElementById("main_menu");
 menu_btn.addEventListener("click", () => {
   main_menu.classList.toggle("hidden");
 });
+
+// Dropdown style
+
+let dropdownBtn = document.getElementById("dropdown");
+let dropdownMenu = document.getElementById("dropdownmenu");
+
+dropdownBtn.addEventListener("click", () => {
+  dropdownMenu.classList.toggle("hidden");
+});
